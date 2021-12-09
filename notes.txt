@@ -1,0 +1,30 @@
+1) Command to create new react project: npx create-react-app <app-name>
+
+2) inline styling in react:
+
+	<h1 style={{textAlign: "center"}}>Hello World !!</h1>
+
+3) return types:
+
+	const App = () => {
+		//if u use curly braces, then u need to have return keyword
+		return()
+	}
+
+	OR
+
+	const App = () => (
+		//if u have round brakets, then no need of return keyword
+	)
+
+4) Context API:
+	createContext
+	provider
+	consumer
+
+5) <Fragment></Fragment> in react is almost as same as <div></div> 
+
+6) where ever we want to use the provider, we WRAP it up using provider tag,
+	<Provider>
+	  <component>
+	</Provider>
