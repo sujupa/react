@@ -51,6 +51,7 @@ const ViewContact = () => {
               <a
                 className="btn btn-primary btn-block"
                 target="_blank"
+                href={`https://maps.google.com/?=${contact?.address}`}
                 //TODO: add google maps
               >
                 <FaMapMarkerAlt className="icon mr-2" />
